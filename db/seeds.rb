@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+menus=Menu.create([
+    {food_name:"Ugali Nyama",image_url:"Ugali nyama",image_url:"https://media.istockphoto.com/id/1272199595/photo/ugali-with-goat-meat.jpg?s=612x612&w=0&k=20&c=76VulJyngLZSNg0FYN8i4ZQ7dyT-eBY8pzGqMGCt4ug=",description:"ugali, nyama,vegetables soup",price:200},
+    {food_name:"Ugali Samaki",image_url:"https://media.istockphoto.com/id/1142024204/photo/a-meal-of-tilapia-and-ugali.jpg?s=612x612&w=0&k=20&c=UGGa8jRjQYSlM0nmy77qvGu6Njurumzv34icisQK-ms=",description:"ugali, samaki,vegetables ,soup",price:250},
+    {food_name:"Mokimo",image_url:"https://www.shutterstock.com/image-photo/iriomashed-sweet-potato-peas-corn-kenyan-1629596125",description:"Viazi,mahindi,vegetables ,soup",price:100},
+    {food_name:"Gither",image_url:"https://www.shutterstock.com/image-photo/close-photo-plate-githeri-staple-kenyan-2194422971",description:"Githeri,vegetables, soup",price:100},
+    {food_name:"Chapati nyama",image_url:"https://www.shutterstock.com/image-photo/kenyan-african-dishes-meals-on-table-2168769211",description:"Chapati, stew,soup",price:150},
+    {food_name:"Nyama Choma Ugali",image_url:"https://www.shutterstock.com/image-photo/sharing-platter-traditional-kenyan-dish-nyama-1320191333",description:"ugali, nyama-choma,vegetables soup",price:300},
+    ])
