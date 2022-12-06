@@ -6,8 +6,8 @@ function Food({ menu }) {
       <div className="card">
         <img src={menu.image_url}></img>
         <h4>Name:{menu.food_name}</h4>
-        <h5>Price: Ksh{menu.price}</h5>
-        <p>Ingredient:{menu.description}</p>
+        <h5>Price: Ksh {menu.price}</h5>
+        <p>Ingredient: {menu.description}</p>
         <button>Order</button>
       </div>
     </div>
