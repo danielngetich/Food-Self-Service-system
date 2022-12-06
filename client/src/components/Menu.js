@@ -11,7 +11,7 @@ fetch("http://127.0.0.1:3000/menus")
 .then((data)=>setMenus(data))
 },[])
     return(
-        <div>
+        <div className="row">
             <h2>Welcome To Foodies Restaurant</h2>
             <h3>Today's Menu</h3>
             {menus.map((menu)=>{
