@@ -8,8 +8,8 @@ function Home() {
       </div>
       <div>
         <h2>Choose your Preferance</h2>
-        <button>Take Away</button>
-        <button>Eat In</button>
+        <button className="btn-home">Take Away</button>
+        <button className="btn-home">Eat In</button>
       </div>
     </div>
   );

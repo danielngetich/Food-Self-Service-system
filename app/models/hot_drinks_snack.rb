@@ -1,0 +1,2 @@
+class HotDrinksSnack < ApplicationRecord
+end

@@ -1,6 +1,6 @@
-class CreateMenus < ActiveRecord::Migration[6.1]
+class CreateAlcoholicDrinks < ActiveRecord::Migration[6.1]
   def change
-    create_table :menus do |t|
+    create_table :alcoholic_drinks do |t|
       t.string :food_name
       t.string :image_url
       t.string :description

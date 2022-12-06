@@ -1,0 +1,2 @@
+class SoftDrink < ApplicationRecord
+end

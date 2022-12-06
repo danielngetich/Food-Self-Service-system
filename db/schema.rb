@@ -10,9 +10,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_05_101959) do
+ActiveRecord::Schema.define(version: 2022_12_06_064713) do
 
-  create_table "menus", force: :cascade do |t|
+  create_table "alcoholic_drinks", force: :cascade do |t|
+    t.string "food_name"
+    t.string "image_url"
+    t.string "description"
+    t.integer "price"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "hot_drinks_snacks", force: :cascade do |t|
+    t.string "food_name"
+    t.string "image_url"
+    t.string "description"
+    t.integer "price"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "main_dishes", force: :cascade do |t|
+    t.string "food_name"
+    t.string "image_url"
+    t.string "description"
+    t.integer "price"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "soft_drinks", force: :cascade do |t|
     t.string "food_name"
     t.string "image_url"
     t.string "description"

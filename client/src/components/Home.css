@@ -1,7 +1,10 @@
 body{
     color: greenyellow;
+    background-image: url("../assets/victoria-shes-UC0HZdUitWY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-button{
+.btn-home{
     margin: 10%;
     color: whitesmoke;
     height: 60px;
