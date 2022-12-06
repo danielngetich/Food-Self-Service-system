@@ -1,0 +1,10 @@
+body{
+    color: greenyellow;
+}
+button{
+    margin: 10%;
+    color: whitesmoke;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(0, 128, 32);
+}
