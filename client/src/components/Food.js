@@ -1,11 +1,13 @@
-
+import "./Food.css"
 function Food({menu}){
     console.log(menu)
     return(
-        <div>
+        <div className="card">
             <img src={menu.image_url}></img>
-            <h2>{menu.food_name}</h2>
-            <h3>{menu.price}</h3>
+            <h4>Name:{menu.food_name}</h4>
+            <h5>Price: Ksh{menu.price}</h5>
+            <p>Ingredient:{menu.description}</p>
+            <button>Order</button>
         </div>
     )
 }

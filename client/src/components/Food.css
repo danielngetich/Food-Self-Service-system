@@ -1,0 +1,26 @@
+.card{
+    border: solid white;
+    height: 60vh;
+    width: 22vw;
+    margin: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 5%;
+    box-shadow: grey 2px 2px 0 0;
+    background-color: rgb(231, 231, 147);
+}
+img{
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+    padding:3px;
+}
+p{
+    color: green;
+}
+button{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
