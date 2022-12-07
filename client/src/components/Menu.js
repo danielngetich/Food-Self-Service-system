@@ -16,7 +16,7 @@ function Menu() {
       <h3>Today's Menu</h3>
       <div>
         <div>
-          <h4>Hot Drinks</h4>
+          <h4>Welcome</h4>
           <div>
             {menu.map((menu) => {
               return <Food menu={menu} />;

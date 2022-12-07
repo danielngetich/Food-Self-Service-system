@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #8de610;
   min-height: 100vh;
   display: flex;
@@ -22,14 +22,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 /* body{
   background-image: url("../src/assets/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 } */
-
-.App-link {
-  color: #61dafb;
-}
 
