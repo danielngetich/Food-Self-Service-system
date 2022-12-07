@@ -26,7 +26,6 @@ ActiveRecord::Schema.define(version: 2022_12_07_084359) do
   end
 
   create_table "menus", force: :cascade do |t|
-    t.integer "category_id"
     t.string "food_name"
     t.string "image_url"
     t.string "description"
