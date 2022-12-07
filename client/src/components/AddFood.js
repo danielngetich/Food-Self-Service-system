@@ -1,15 +1,23 @@
+import { useEffect, useState } from "react";
 import "./AddFood.css";
 function AddFood() {
-  function HandleSubmit(e) {
+  const[categor,setCategory]=useState("")
+  console.log(categor)
+  useEffect(()=>{
+    fetch("/categories")
+    .then(res=>res.json())
+    .then((category)=>setCategory(category))
+  },[])
+  function handleSubmit(e) {
     e.preventDefault();
   }
   return (
     <div className="testbox">
-      <form onSubmit={HandleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="category">
           <label>Category</label>
           <select >
-            <option >Alcoholic Drinks</option>
+            <option>Alcoholic Drinks</option>
             <option>Hot Drinks</option>
             <option>Soft Drinks</option>
             <option>Main Dishes</option>
