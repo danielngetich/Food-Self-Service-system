@@ -4,7 +4,6 @@ import "./Menu.css";
 function Menu() {
   const [menu, setMenu] = useState([]);
 
-
   useEffect(() => {
     fetch("/menus")
       .then((res) => res.json())

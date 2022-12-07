@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
     def index
-        render json:Category.all, status: :ok
+        render json:Category.all, include: :menus
     end
 end

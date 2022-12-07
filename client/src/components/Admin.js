@@ -25,7 +25,7 @@ function Admin() {
   return (
     <div className="main">
       <form action="action_page.php" onSubmit={onSubmit}>
-        <div class="container">
+        <div className="container">
           <h1>Register</h1>
           <p>Chief Registration Form.</p>
           <label for="email">
@@ -61,9 +61,9 @@ function Admin() {
         </div>
       </form>
       <form>
-        <div class="container signin">
+        <div className="container signin">
           <p>
-            Already have an account? <button>Login</button>.
+            Already have an account? <a href="/login"><button>Login</button>.</a>
           </p>
         </div>
       </form>

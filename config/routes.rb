@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :categories
 
   post "/login", to: "session#create"
+  get "/me", to: "admins#show"
 end
