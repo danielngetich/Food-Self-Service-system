@@ -7,21 +7,24 @@ function Admin() {
   function onSubmit(e) {
     e.preventDefault();
     const admin = {
-      username:username,
-      password:password
+      username: username,
+      password: password,
     };
-    fetch("/admins",{
-        method:"POST",
-        headers:{
-            "Content-Type":"application/json"
-        },
-        body:JSON.stringify(admin)
-    }).then(res=>(res.json()))
-    .then((data)=>{console.log(data)})
+    fetch("/admins", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(admin),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      });
   }
   return (
-    <div>
-      <form action="action_page.php" onSubmit={onSubmit} >
+    <div className="main">
+      <form action="action_page.php" onSubmit={onSubmit}>
         <div class="container">
           <h1>Register</h1>
           <p>Chief Registration Form.</p>
@@ -56,7 +59,8 @@ function Admin() {
             Register
           </button>
         </div>
-
+      </form>
+      <form>
         <div class="container signin">
           <p>
             Already have an account? <button>Login</button>.

@@ -5,6 +5,14 @@
   padding: 16px;
 }
 
+.main{
+  display: block;
+  text-align: center;
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: auto;
+  text-align: left;
+}
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
