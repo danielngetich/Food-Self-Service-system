@@ -14,15 +14,6 @@ function AddFood() {
   return (
     <div className="testbox">
       <form onSubmit={handleSubmit}>
-        <div className="category">
-          <label>Category</label>
-          <select >
-            <option>Alcoholic Drinks</option>
-            <option>Hot Drinks</option>
-            <option>Soft Drinks</option>
-            <option>Main Dishes</option>
-          </select>
-        </div>
         <div>
           <label>Food Name</label>
           <input

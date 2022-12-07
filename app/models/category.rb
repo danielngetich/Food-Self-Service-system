@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-    belongs_to :menus
+    has_many :menus
 end
