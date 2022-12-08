@@ -1,9 +1,11 @@
 import "./Admin.css";
 import React, {useState } from "react";
-function Login({onLogin}) {
+import { useNavigate } from 'react-router-dom';
+function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState([]);
+  const navigate = useNavigate();
   function handleSubmit(e) {
     e.preventDefault();
     fetch("/login", {
@@ -12,14 +14,17 @@ function Login({onLogin}) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ username, password }),
-    }).then((r) => {
-      if (r.ok) {
-        r.json().then((user) => onLogin(user));
+    })
+    .then(res=>res.json())
+    .then(json => {
+      console.log("json",json)
+      if (json.message) {
+          setErrors(json.message)
       } else {
-        r.json().then((err) => setErrors(err.errors));
+          navigate("/addfood")
       }
-    });
-  }
+  })
+    }
   return (
     <div className="main">
       <form action="action_page.php" onSubmit={handleSubmit}>
@@ -59,6 +64,6 @@ function Login({onLogin}) {
         </div>
       </form>
     </div>
-  );
+  )
 }
 export default Login;

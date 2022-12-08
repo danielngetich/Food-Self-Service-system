@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Admin.css";
+import {Link} from "react-router-dom"
 function Admin() {
   const [username, SetUsername] = useState("");
   const [password, SetPassword] = useState("");
@@ -63,7 +64,7 @@ function Admin() {
       <form>
         <div className="container signin">
           <p>
-            Already have an account? <a href="/login"><button>Login</button>.</a>
+            Already have an account? <Link to="/login"><button>Login</button>.</Link>
           </p>
         </div>
       </form>

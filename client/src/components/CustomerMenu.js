@@ -1,6 +1,5 @@
-import Food from "./Food";
-import "./Menu.css";
-function Menu({menu}) {
+import Card from "./Card";
+function CustomerMenu({menu}) {
   return (
     <div className="row">
       <h2>Welcome To Foodies Restaurant</h2>
@@ -10,7 +9,7 @@ function Menu({menu}) {
           <h4>Welcome</h4>
           <div>
             {menu.map((menu) => {
-              return <Food menu={menu} />;
+              return <Card key={menu.id} menu={menu} />
             })}
           </div>
         </div>
@@ -18,4 +17,4 @@ function Menu({menu}) {
     </div>
   );
 }
-export default Menu;
+export default CustomerMenu;

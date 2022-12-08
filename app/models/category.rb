@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-    has_many :menus
+    # has_many :menus
 end

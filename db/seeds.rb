@@ -26,4 +26,4 @@ main_dishes=Menu.create([
     {food_name:"Afia",image_url:"https://mybigorder.com/public/uploads/products/meta/gxSGFTf5F8D7lYzkLUtV722vC9UaIeYeoGxTL0Kd.jpeg",description:"Afia juice",price:100}
     ])
 
-# category=Category.create([{name:"Main Dishes"},{name:"Soft Drinks"},{name:"Hot Drinks Snack"},{name:"Alcoholic Drinks"}])
+category=Category.create([{name:"Main Dishes"},{name:"Soft Drinks"},{name:"Hot Drinks Snack"},{name:"Alcoholic Drinks"}])
