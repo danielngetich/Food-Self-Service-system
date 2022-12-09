@@ -38,6 +38,9 @@ Restaurant self service sytem is a platform for customers to order food while at
 - Root endpoint:
   - [http://0.0.0.0:5772](http://0.0.0.0:5772)
 
+>Front-end
+`Food-Self-Service-system `
+
 > POST
 
 `/menus`
