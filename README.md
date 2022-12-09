@@ -39,7 +39,7 @@ Restaurant self service sytem is a platform for customers to order food while at
   - [http://0.0.0.0:5772](http://0.0.0.0:5772)
 
 >Front-end
-`Food-Self-Service-system `
+-[https://github.com/danielngetich/Restaurant-self-service-Front-end]
 
 > POST
 
