@@ -59,13 +59,11 @@ function Admin() {
           <button type="submit" class="registerbtn">
             Register
           </button>
-        </div>
-      </form>
-      <form>
-        <div className="container signin">
+          <div className="container signin">
           <p>
-            Already have an account? <Link to="/login"><button>Login</button>.</Link>
+            Already have an account? <Link to="/login"><button type="click">Login</button>.</Link>
           </p>
+        </div>
         </div>
       </form>
     </div>

@@ -8,6 +8,7 @@ import Food from "./components/Food";
 import Login from "./components/Login";
 import React, { useEffect, useState } from "react";
 import CustomerMenu from "./components/CustomerMenu";
+import TableNum from "./components/TableNum";
 function App() {
   const [user, setUser] = useState(null);
   // useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/login" element={<Login/>} />
           <Route path="/food" element={<Food />} />
           <Route path="/customermenu" element={<CustomerMenu menu={menu} />} />
+          <Route path="/table" element={<TableNum />} />
         </Routes>
       </Router>
     </div>

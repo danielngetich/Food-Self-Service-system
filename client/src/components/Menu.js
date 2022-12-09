@@ -3,7 +3,6 @@ import "./Menu.css";
 function Menu({menu}) {
   return (
     <div className="row">
-      <h2>Welcome To Foodies Restaurant</h2>
       <h3>Today's Menu</h3>
       <div>
         <div>
